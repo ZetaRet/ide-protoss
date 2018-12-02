@@ -1,4 +1,3 @@
-[![Zeta Ret ProtoSS Atom IDE](https://protoss.xyz/images/atom-ide-protoss.png)](https://atom.io/packages/ide-protoss)
 [![Zeta Ret ProtoSS Logo](https://zetaret.com/images/protoss_logo_name.png)](https://protoss.xyz/)
 
 ## ProtoSS package for Atom IDE
