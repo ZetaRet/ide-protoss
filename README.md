@@ -9,8 +9,8 @@
 - number of tokens  
 - name of package [click to open package json in IDE]  
 - name of json descriptor [click to open json descriptor in IDE]  
-- number of properties  
-- number of methods  
+- number of properties INSTANCE-STATIC  
+- number of methods INSTANCE-STATIC  
 - inherit supers [click on each name to open JS ProtoSS Class in IDE]  
 
 ## Zeta Ret ProtoSS Library - Prototype Supers-Subclass
