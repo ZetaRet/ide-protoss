@@ -1,6 +1,6 @@
 {
     "license": "MIT",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "main": "./lib/main.js",
     "name": "ide-protoss",
     "description": "Zeta Ret ProtoSS JS support for Atom IDE",
@@ -54,6 +54,24 @@
             ],
             "default": "default",
             "description": "css color of top panel"
+        },
+        "fontSize": {
+            "title": "Font size",
+            "type": "string",
+            "enum": [
+                "default",
+                "10px",
+                "11px",
+                "12px",
+                "13px",
+                "14px",
+                "15px",
+                "16px",
+                "17px",
+                "18px"
+            ],
+            "default": "default",
+            "description": "css font size of top panel"
         }
     },
     "engines": {
