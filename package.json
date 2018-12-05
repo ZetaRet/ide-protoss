@@ -1,80 +1,80 @@
 {
-    "license": "MIT",
-    "version": "1.0.6",
-    "main": "./lib/main.js",
-    "name": "ide-protoss",
-    "description": "Zeta Ret ProtoSS JS support for Atom IDE",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ZetaRet/ide-protoss.git"
-    },
-    "configSchema": {
-        "breadcrumbs": {
-            "title": "Breadcrumbs visibility",
-            "type": "string",
-            "enum": [
-                "auto",
-                "yes",
-                "no"
-            ],
-            "default": "auto",
-            "description": "Top panel describing file, meta data, descriptors and hierarchy"
-        },
-        "console": {
-            "title": "Console.log",
-            "type": "string",
-            "enum": [
-                "yes",
-                "no"
-            ],
-            "default": "no",
-            "description": "console.log output in developer tools"
-        },
-        "textColor": {
-            "title": "Text color",
-            "type": "string",
-            "enum": [
-                "default",
-                "#000000",
-                "#111111",
-                "#222222",
-                "#333333",
-                "#444444",
-                "#555555",
-                "#666666",
-                "#777777",
-                "#888888",
-                "#999999",
-                "#aaaaaa",
-                "#bbbbbb",
-                "#cccccc",
-                "#dddddd",
-                "#eeeeee",
-                "#ffffff"
-            ],
-            "default": "default",
-            "description": "css color of top panel"
-        },
-        "fontSize": {
-            "title": "Font size",
-            "type": "string",
-            "enum": [
-                "default",
-                "10px",
-                "11px",
-                "12px",
-                "13px",
-                "14px",
-                "15px",
-                "16px",
-                "17px",
-                "18px"
-            ],
-            "default": "default",
-            "description": "css font size of top panel"
-        }
-    },
-    "engines": {
-        "atom": ">= 1.33.0"
-    }
+	"license": "MIT",
+	"version": "1.0.6",
+	"main": "./lib/main.js",
+	"name": "ide-protoss",
+	"description": "Zeta Ret ProtoSS JS support for Atom IDE",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ZetaRet/ide-protoss.git"
+	},
+	"configSchema": {
+		"breadcrumbs": {
+			"title": "Breadcrumbs visibility",
+			"type": "string",
+			"enum": [
+				"auto",
+				"yes",
+				"no"
+			],
+			"default": "auto",
+			"description": "Top panel describing file, meta data, descriptors and hierarchy"
+		},
+		"console": {
+			"title": "Console.log",
+			"type": "string",
+			"enum": [
+				"yes",
+				"no"
+			],
+			"default": "no",
+			"description": "console.log output in developer tools"
+		},
+		"textColor": {
+			"title": "Text color",
+			"type": "string",
+			"enum": [
+				"default",
+				"#000000",
+				"#111111",
+				"#222222",
+				"#333333",
+				"#444444",
+				"#555555",
+				"#666666",
+				"#777777",
+				"#888888",
+				"#999999",
+				"#aaaaaa",
+				"#bbbbbb",
+				"#cccccc",
+				"#dddddd",
+				"#eeeeee",
+				"#ffffff"
+			],
+			"default": "default",
+			"description": "css color of top panel"
+		},
+		"fontSize": {
+			"title": "Font size",
+			"type": "string",
+			"enum": [
+				"default",
+				"10px",
+				"11px",
+				"12px",
+				"13px",
+				"14px",
+				"15px",
+				"16px",
+				"17px",
+				"18px"
+			],
+			"default": "default",
+			"description": "css font size of top panel"
+		}
+	},
+	"engines": {
+		"atom": ">= 1.33.0"
+	}
 }
