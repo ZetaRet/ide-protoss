@@ -1,0 +1,9 @@
+'atom-workspace':
+  'f7': 'ide-protoss:token'
+  'ctrl-f7': 'ide-protoss:prevtoken'
+  'shift-f7': 'ide-protoss:seltoken'
+  'alt-f7': 'ide-protoss:retoken'
+  'ctrl-alt-f7': 'ide-protoss:refresh'
+  'ctrl-shift-f7': 'ide-protoss:json'
+  'alt-shift-f7': 'ide-protoss:md'
+  'ctrl-shift-alt-f7': 'ide-protoss:projson'
