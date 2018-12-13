@@ -7,3 +7,4 @@
   'ctrl-shift-f7': 'ide-protoss:json'
   'alt-shift-f7': 'ide-protoss:md'
   'ctrl-shift-alt-f7': 'ide-protoss:projson'
+  'ctrl-shift-f8': 'ide-protoss:supers'
