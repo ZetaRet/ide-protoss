@@ -6,12 +6,14 @@
 - click ProtoSS at breadcrumbs to refresh info of .js file  
 - absolute file location  
 - number of lines  
-- number of tokens  
+- number of tokens   
 - name of package [click to open package json in IDE]  
 - name of json descriptor [click to open json descriptor in IDE]  
 - number of properties INSTANCE-STATIC  
 - number of methods INSTANCE-STATIC  
 - inherit supers [click on each name to open JS ProtoSS Class in IDE]  
+- key bindings and pointer clicks enabled on token utility [Wiki How To](https://github.com/ZetaRet/ide-protoss/wiki/How-to)  
+- protoss* snippets part of the package  
 
 ## Zeta Ret ProtoSS Library - Prototype Supers-Subclass
 
