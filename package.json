@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "Zeta Ret ProtoSS JS support for Atom IDE",
@@ -72,6 +72,16 @@
 			],
 			"default": "default",
 			"description": "css font size of top panel"
+		},
+		"notifications": {
+			"title": "Allow notifications",
+			"type": "string",
+			"enum": [
+				"yes",
+				"no"
+			],
+			"default": "no",
+			"description": "notifications will popup on the screen for loaded json descriptors and analyzed tokens"
 		}
 	},
 	"engines": {
