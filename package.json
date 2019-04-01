@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "Zeta Ret ProtoSS JS support for Atom IDE",
@@ -92,6 +92,16 @@
 			],
 			"default": "no",
 			"description": "lines and tokens will appear in groups separated by space"
+		},
+		"zetaret_omnipotency": {
+			"title": "Omnipotent Mode",
+			"type": "string",
+			"enum": [
+				"yes",
+				"no"
+			],
+			"default": "no",
+			"description": "Activate ProtoSS Omnipotency. Tokenize all file extensions using JS Grammar. ProtoSS Dox/Project/Descriptors are enabled."
 		}
 	},
 	"engines": {
