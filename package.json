@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "Zeta Ret ProtoSS JS support for Atom IDE",
@@ -92,6 +92,22 @@
 			],
 			"default": "no",
 			"description": "lines and tokens will appear in groups separated by space"
+		},
+		"grammarId": {
+			"title": "Grammar",
+			"type": "string",
+			"enum": [
+				"JavaScript",
+				"TypeScript",
+				"CoffeeScript",
+				"HTML",
+				"CSS",
+				"GitHub Markdown",
+				"Plain Text",
+				"Auto"
+			],
+			"default": "JavaScript",
+			"description": "Choose Grammar Tokenizer. Install or Enable missing ones. Auto will use editor grammar."
 		},
 		"zetaret_omnipotency": {
 			"title": "Omnipotent Mode",
