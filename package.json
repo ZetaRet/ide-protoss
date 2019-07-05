@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.2.4",
+	"version": "1.2.5",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "Zeta Ret ProtoSS JS support for Atom IDE",
@@ -117,6 +117,16 @@
 			],
 			"default": "JavaScript",
 			"description": "Choose Grammar Tokenizer. Install or Enable missing ones. Auto will use editor grammar."
+		},
+		"findTokenCaseSensitivity": {
+			"title": "Find Token case sensitivity",
+			"type": "string",
+			"enum": [
+				"yes",
+				"no"
+			],
+			"default": "yes",
+			"description": "Case Sensitive search of tokens. Token string value is always trimmed of whitespace."
 		},
 		"zetaret_omnipotency": {
 			"title": "Omnipotent Mode",
