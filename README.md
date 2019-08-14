@@ -1,7 +1,7 @@
-[![Zeta Ret ProtoSS Logo](https://zetaret.com/images/protoss_logo_name.png)](https://protoss.zetaret.com/)
+[![Zeta Ret ProtoSS Logo](https://protoss.zetaret.com/images/protoss_logo_name_atom.png)](https://protoss.zetaret.com/)
 
 ## ProtoSS package for Atom IDE
-[![Zeta Ret ProtoSS Atom IDE](https://protoss.zetaret.com/images/atom-ide-protoss-example.png)](https://atom.io/packages/ide-protoss)
+[![Zeta Ret ProtoSS Atom IDE](https://protoss.zetaret.com/images/atom-ide-protoss-bar.png)](https://atom.io/packages/ide-protoss)
 - live settings  
 - Grammar Selection - JavaScript, TypeScript, CoffeeScript, HTML, CSS, Markdown, Text, or Auto  
 - tokenization setting of any file extension  
@@ -19,8 +19,6 @@
 - protoss* snippets part of the package  
 
 ## Zeta Ret ProtoSS Library - Prototype Supers-Subclass
-
-[![Zeta Ret ProtoSS Cover](https://zetaret.com/images/protoss_cover.jpg)](https://zetaret.com/projects/protoss/)
 
 ProtoSS Website: https://protoss.zetaret.com/  
 Author: Zeta Ret https://zetaret.com/
