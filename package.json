@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.2.6",
+	"version": "1.2.7",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "Zeta Ret ProtoSS JS support for Atom IDE",
