@@ -1,7 +1,7 @@
-[![Zeta Ret ProtoSS Logo](https://protoss.zetaret.com/images/protoss_logo_name_atom.png)](https://protoss.zetaret.com/)
+[![Zeta Ret ProtoSS Logo](https://raw.githubusercontent.com/ZetaRet/atom.io-packages/master/images/protoss_logo_name_atom.png)](https://protoss.zetaret.com/)
 
 ## ProtoSS package for Atom IDE
-[![Zeta Ret ProtoSS Atom IDE](https://protoss.zetaret.com/images/atom-ide-protoss-bar.png)](https://atom.io/packages/ide-protoss)
+[![Zeta Ret ProtoSS Atom IDE](https://raw.githubusercontent.com/ZetaRet/atom.io-packages/master/images/atom-ide-protoss-bar.png)](https://atom.io/packages/ide-protoss)
 - live settings  
 - Grammar Selection - JavaScript, TypeScript, CoffeeScript, HTML, CSS, Markdown, Text, or Auto  
 - tokenization setting of any file extension  
