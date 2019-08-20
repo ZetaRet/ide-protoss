@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.2.8",
+	"version": "1.2.9",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "Zeta Ret ProtoSS JS support for Atom IDE",
@@ -27,17 +27,17 @@
 				"no"
 			],
 			"default": "auto",
-			"description": "Top panel describing file, meta data, descriptors and hierarchy"
+			"description": "Top panel describing file, meta data, descriptors and hierarchy."
 		},
 		"console": {
-			"title": "Console.log",
+			"title": "Console",
 			"type": "string",
 			"enum": [
 				"yes",
 				"no"
 			],
 			"default": "no",
-			"description": "console.log output in developer tools"
+			"description": "Output of console.log in developer tools"
 		},
 		"textColor": {
 			"title": "Text color",
@@ -62,7 +62,7 @@
 				"#ffffff"
 			],
 			"default": "default",
-			"description": "css color of top panel"
+			"description": "CSS color of top panel"
 		},
 		"fontSize": {
 			"title": "Font size",
@@ -80,7 +80,7 @@
 				"18px"
 			],
 			"default": "default",
-			"description": "css font size of top panel"
+			"description": "CSS font size of top panel"
 		},
 		"notifications": {
 			"title": "Allow notifications",
@@ -90,7 +90,7 @@
 				"no"
 			],
 			"default": "no",
-			"description": "notifications will popup on the screen for loaded json descriptors and analyzed tokens"
+			"description": "Notifications will popup on the screen for loaded JSON descriptors and analyzed tokens."
 		},
 		"groupdigits": {
 			"title": "Allow digit grouping",
@@ -100,7 +100,7 @@
 				"no"
 			],
 			"default": "no",
-			"description": "lines and tokens will appear in groups separated by space"
+			"description": "Lines and tokens will appear in groups separated by space."
 		},
 		"grammarId": {
 			"title": "Grammar",
