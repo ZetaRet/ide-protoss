@@ -20,5 +20,8 @@
 
 ## Zeta Ret ProtoSS Library - Prototype Supers-Subclass
 
-ProtoSS Website: https://protoss.zetaret.com/  
-Author: Zeta Ret https://zetaret.com/
+[![Welcome to ProtoSS IDE](https://raw.githubusercontent.com/ZetaRet/atom.io-packages/master/images/welcome_protoss.png)](https://atom.io/packages/ide-protoss)  
+
+[ProtoSS Website](https://protoss.zetaret.com/)  
+
+[Zeta Ret](https://zetaret.com/)  
