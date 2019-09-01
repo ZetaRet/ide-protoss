@@ -4,6 +4,8 @@
 [![Zeta Ret ProtoSS Atom IDE](https://raw.githubusercontent.com/ZetaRet/atom.io-packages/master/images/atom-ide-protoss-bar-br.png)](https://atom.io/packages/ide-protoss)
 - live settings  
 - Grammar Selection - JavaScript, TypeScript, CoffeeScript, HTML, CSS, Markdown, Text, or Auto  
+- auto async of tokens on text change upto 60 seconds timeout setting  
+- maximum tokens per line setting upto 10000  
 - tokenization setting of any file extension (omnipotent mode)  
 - case sensitive token search setting  
 - notification settings in Atom IDE  
