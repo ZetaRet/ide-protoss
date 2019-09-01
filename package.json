@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.3.2",
+	"version": "1.4.0",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "Zeta Ret ProtoSS JS support for Atom IDE",
@@ -18,6 +18,26 @@
 		"url": "git+https://github.com/ZetaRet/ide-protoss.git"
 	},
 	"configSchema": {
+		"autoUpdateOnChange": {
+			"title": "Auto async of tokens within seconds",
+			"type": "string",
+			"enum": [
+				"disable",
+				"0",
+				"1",
+				"2",
+				"3",
+				"4",
+				"5",
+				"10",
+				"15",
+				"30",
+				"45",
+				"60"
+			],
+			"default": "disable",
+			"description": "Automatic update of tokens on stop changing text editor. Update is asynchronous without notifications."
+		},
 		"breadcrumbs": {
 			"title": "Breadcrumbs visibility",
 			"type": "string",
