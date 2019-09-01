@@ -7,7 +7,7 @@
 - tokenization setting of any file extension (omnipotent mode)  
 - case sensitive token search setting  
 - notification settings in Atom IDE  
-- click ProtoSS at breadcrumbs to refresh info of .js file  
+- click ProtoSS at breadcrumbs to refresh info of file  
 - hover and click tooltips  
 - absolute file location and descriptor info  
 - number of lines and file stats on click  
