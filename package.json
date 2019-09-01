@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.4.0",
+	"version": "1.4.1",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "Zeta Ret ProtoSS JS support for Atom IDE",
@@ -101,6 +101,24 @@
 			],
 			"default": "default",
 			"description": "CSS font size of top panel"
+		},
+		"maxTokensPerLine": {
+			"title": "Maximum tokens per line",
+			"type": "string",
+			"enum": [
+				"default",
+				"100",
+				"250",
+				"500",
+				"1000",
+				"1500",
+				"2000",
+				"2500",
+				"5000",
+				"10000"
+			],
+			"default": "default",
+			"description": "Configure any Grammar maximum tokens per load of file in ProtoSS IDE."
 		},
 		"notifications": {
 			"title": "Allow notifications",
