@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.4.2",
+	"version": "1.4.3",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "Zeta Ret ProtoSS JS support for Atom IDE",
@@ -65,20 +65,35 @@
 			"enum": [
 				"default",
 				"#000000",
+				"#090909",
 				"#111111",
+				"#1a1a1a",
 				"#222222",
+				"#2b2b2b",
 				"#333333",
+				"#3c3c3c",
 				"#444444",
+				"#4d4d4d",
 				"#555555",
+				"#5e5e5e",
 				"#666666",
+				"#6f6f6f",
 				"#777777",
+				"#808080",
 				"#888888",
+				"#919191",
 				"#999999",
+				"#a2a2a2",
 				"#aaaaaa",
+				"#b3b3b3",
 				"#bbbbbb",
+				"#c4c4c4",
 				"#cccccc",
+				"#d5d5d5",
 				"#dddddd",
+				"#e6e6e6",
 				"#eeeeee",
+				"#f7f7f7",
 				"#ffffff"
 			],
 			"default": "default",
@@ -97,7 +112,8 @@
 				"15px",
 				"16px",
 				"17px",
-				"18px"
+				"18px",
+				"20px"
 			],
 			"default": "default",
 			"description": "CSS font size of top panel"
@@ -152,12 +168,17 @@
 				"CoffeeScript",
 				"HTML",
 				"CSS",
+				"PHP",
+				"Python",
+				"Java",
+				"JSON",
+				"XML",
 				"GitHub Markdown",
 				"Plain Text",
 				"Auto"
 			],
 			"default": "JavaScript",
-			"description": "Choose Grammar Tokenizer. Install or Enable missing ones. Auto will use editor grammar."
+			"description": "Choose Grammar Tokenizer. Install or Enable missing ones, otherwise Null Grammar will be used. Auto will use editor grammar."
 		},
 		"findTokenCaseSensitivity": {
 			"title": "Find Token case sensitivity",
