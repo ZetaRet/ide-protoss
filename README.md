@@ -3,7 +3,7 @@
 ## ProtoSS package for Atom IDE
 [![Zeta Ret ProtoSS Atom IDE](https://raw.githubusercontent.com/ZetaRet/atom.io-packages/master/images/atom-ide-protoss-bar-br.png)](https://atom.io/packages/ide-protoss)
 - live settings  
-- Grammar Selection - JavaScript, TypeScript, CoffeeScript, HTML, CSS, Markdown, Text, or Auto  
+- Grammar Selection - JavaScript, TypeScript, CoffeeScript, HTML, CSS, PHP, Python, Java, JSON, XML, GitHub Markdown, Plain Text, or Auto  
 - auto async of tokens on text change upto 60 seconds timeout setting  
 - maximum tokens per line setting upto 100000  
 - tokenization setting of any file extension (omnipotent mode)  
