@@ -5,7 +5,7 @@
 - live settings  
 - Grammar Selection - JavaScript, TypeScript, CoffeeScript, HTML, CSS, Markdown, Text, or Auto  
 - auto async of tokens on text change upto 60 seconds timeout setting  
-- maximum tokens per line setting upto 10000  
+- maximum tokens per line setting upto 100000  
 - tokenization setting of any file extension (omnipotent mode)  
 - case sensitive token search setting  
 - notification settings in Atom IDE  
@@ -23,6 +23,7 @@
 - font size and color settings  
 - digit grouping setting of lines and tokens  
 - key bindings [__F__ keys] and pointer clicks enabled on token utility [Wiki How To](https://github.com/ZetaRet/ide-protoss/wiki/How-to)  
+- token loop navigator using __[CTRL]+F7__ or [CTRL]+Click  
 - protoss* snippets part of the package  
 
 ## Zeta Ret ProtoSS Library - Prototype Supers-Subclass
