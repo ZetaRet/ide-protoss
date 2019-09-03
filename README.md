@@ -3,7 +3,7 @@
 ## ProtoSS package for Atom IDE
 [![Zeta Ret ProtoSS Atom IDE](https://raw.githubusercontent.com/ZetaRet/atom.io-packages/master/images/atom-ide-protoss-bar-br.png)](https://atom.io/packages/ide-protoss)
 - live settings  
-- Grammar Selection - JavaScript, TypeScript, CoffeeScript, HTML, CSS, PHP, Python, Java, JSON, XML, GitHub Markdown, Plain Text, or Auto  
+- Grammar Selection - [JavaScript](https://atom.io/packages/language-javascript), [TypeScript](https://atom.io/packages/language-typescript), [CoffeeScript](https://atom.io/packages/language-coffee-script), [HTML](https://atom.io/packages/language-html), [CSS](https://atom.io/packages/language-css), [PHP](https://atom.io/packages/language-php), [Python](https://atom.io/packages/language-python), [Java](https://atom.io/packages/language-java), [JSON](https://atom.io/packages/language-json), [XML](https://atom.io/packages/language-xml), [GitHub Markdown](https://atom.io/packages/language-gfm), [Plain Text](https://atom.io/packages/language-text), or Auto  
 - auto async of tokens on text change upto 60 seconds timeout setting  
 - maximum tokens per line setting upto 100000  
 - tokenization setting of any file extension (omnipotent mode)  
@@ -23,7 +23,8 @@
 - font size and color settings  
 - digit grouping setting of lines and tokens  
 - key bindings [__F__ keys] and pointer clicks enabled on token utility [Wiki How To](https://github.com/ZetaRet/ide-protoss/wiki/How-to)  
-- token loop navigator using __[CTRL]+F7__ or [CTRL]+Click  
+- token loop navigator using __[CTRL]+F7__ (menu commands, [ctrl]click on tokens in panel)  
+- ProtoSS menu in packages  
 - protoss* snippets part of the package  
 
 ## Zeta Ret ProtoSS Library - Prototype Supers-Subclass
