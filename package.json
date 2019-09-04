@@ -1,9 +1,14 @@
 {
 	"license": "MIT",
-	"version": "1.4.4",
+	"version": "1.4.5",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "Zeta Ret ProtoSS JS support for Atom IDE",
+	"author": {
+		"name": "Zeta Ret",
+		"email": "info@zetaret.com",
+		"url": "https://github.com/ZetaRet/"
+	},
 	"keywords": [
 		"javascript",
 		"js",
