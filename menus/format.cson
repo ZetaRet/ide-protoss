@@ -1,48 +1,44 @@
-'menu': [
+'menu': [{
+'label': 'Packages'
+'submenu': [{
+'label': 'ProtoSS'
+'submenu': [
 	{
-		'label': 'Packages'
-		'submenu': [
-			{
-				'label': 'ProtoSS'
-				'submenu': [
-					{
-						'label': 'Next Token',
-						'command': 'ide-protoss:token'
-					},
-					{
-						'label': 'Previous Token',
-						'command': 'ide-protoss:prevtoken'
-					},
-					{
-						'label': 'Select Token',
-						'command': 'ide-protoss:seltoken'
-					},
-					{
-						'label': 'Retoken Database',
-						'command': 'ide-protoss:retoken'
-					},
-					{
-						'label': 'Refresh IDE',
-						'command': 'ide-protoss:refresh'
-					},
-					{
-						'label': 'JSON Descriptor',
-						'command': 'ide-protoss:json'
-					},
-					{
-						'label': 'MD Documentation',
-						'command': 'ide-protoss:md'
-					},
-					{
-						'label': 'Project JSON',
-						'command': 'ide-protoss:projson'
-					},
-					{
-						'label': 'Open Supers',
-						'command': 'ide-protoss:supers'
-					},
-				]
-			}
-		]
+		'label': 'Next Token',
+		'command': 'ide-protoss:token'
+	},
+	{
+		'label': 'Previous Token',
+		'command': 'ide-protoss:prevtoken'
+	},
+	{
+		'label': 'Select Token',
+		'command': 'ide-protoss:seltoken'
+	},
+	{
+		'label': 'Retoken Database',
+		'command': 'ide-protoss:retoken'
+	},
+	{
+		'label': 'Refresh IDE',
+		'command': 'ide-protoss:refresh'
+	},
+	{
+		'label': 'JSON Descriptor',
+		'command': 'ide-protoss:json'
+	},
+	{
+		'label': 'MD Documentation',
+		'command': 'ide-protoss:md'
+	},
+	{
+		'label': 'Project JSON',
+		'command': 'ide-protoss:projson'
+	},
+	{
+		'label': 'Open Supers',
+		'command': 'ide-protoss:supers'
 	}
 ]
+}]
+}]
