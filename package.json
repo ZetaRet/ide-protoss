@@ -1,9 +1,9 @@
 {
 	"license": "MIT",
-	"version": "1.4.5",
+	"version": "1.4.6",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
-	"description": "Zeta Ret ProtoSS JS support for Atom IDE",
+	"description": "ProtoSS JS and Grammar support for Atom IDE",
 	"author": {
 		"name": "Zeta Ret",
 		"email": "info@zetaret.com",
@@ -11,12 +11,26 @@
 	},
 	"keywords": [
 		"javascript",
-		"js",
 		"protoss",
 		"ide",
 		"grammar",
+		"console",
 		"auto",
-		"console"
+		"token",
+		"data",
+		"js",
+		"typescript",
+		"coffeescript",
+		"html",
+		"css",
+		"php",
+		"python",
+		"java",
+		"json",
+		"xml",
+		"markdown",
+		"md",
+		"text"
 	],
 	"repository": {
 		"type": "git",
