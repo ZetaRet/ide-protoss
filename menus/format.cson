@@ -38,6 +38,10 @@
 	{
 		'label': 'Open Supers',
 		'command': 'ide-protoss:supers'
+	},
+	{
+		'label': 'Resolve Token',
+		'command': 'ide-protoss:resolve'
 	}
 ]
 }]
