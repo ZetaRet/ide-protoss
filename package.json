@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.5.4",
+	"version": "1.5.5",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -140,6 +140,16 @@
 			],
 			"default": "default",
 			"description": "CSS font size of top panel"
+		},
+		"splitpanel": {
+			"title": "Split panel",
+			"type": "string",
+			"enum": [
+				"yes",
+				"no"
+			],
+			"default": "no",
+			"description": "Panel appears on two lines separating file and ProtoSS Dox project."
 		},
 		"maxTokensPerLine": {
 			"title": "Maximum tokens per line",
