@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.6.0",
+	"version": "1.6.1",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -224,6 +224,16 @@
 			"default": "yes",
 			"description": "Case Sensitive search of tokens. Token string value is always trimmed of whitespace."
 		},
+		"autoComplete": {
+			"title": "Auto complete",
+			"type": "string",
+			"enum": [
+				"yes",
+				"no"
+			],
+			"default": "no",
+			"description": "Enable Auto-complete Service provider for directory listing and ProtoSS hierarchy."
+		},
 		"zetaret_omnipotency": {
 			"title": "Omnipotent Mode",
 			"type": "string",
@@ -233,6 +243,13 @@
 			],
 			"default": "no",
 			"description": "Activate ProtoSS Omnipotency. Tokenize all file extensions using JS Grammar. ProtoSS Dox/Project/Descriptors are enabled."
+		}
+	},
+	"providedServices": {
+		"autocomplete.provider": {
+			"versions": {
+				"2.0.0": "getProvider"
+			}
 		}
 	},
 	"engines": {
