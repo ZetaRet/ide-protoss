@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.6.5",
+	"version": "1.6.6",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -81,6 +81,17 @@
 			],
 			"default": "no",
 			"description": "Output of console.log in developer tools"
+		},
+		"project": {
+			"title": "Project lookup",
+			"type": "string",
+			"enum": [
+				"project",
+				"drive",
+				"none"
+			],
+			"default": "project",
+			"description": "Lookup method of protossdox.json bubbles up searching for project file in each parent folder. Limited by project/drive top folder."
 		},
 		"textColor": {
 			"title": "Text color",
