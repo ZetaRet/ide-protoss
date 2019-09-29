@@ -42,6 +42,10 @@
 	{
 		'label': 'Resolve Token',
 		'command': 'ide-protoss:resolve'
+	},
+	{
+		'label': 'Resolve Token in Shell',
+		'command': 'ide-protoss:resolveshell'
 	}
 ]
 }]
