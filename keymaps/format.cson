@@ -8,4 +8,5 @@
   'alt-shift-f7': 'ide-protoss:md'
   'ctrl-shift-alt-f7': 'ide-protoss:projson'
   'f8': 'ide-protoss:resolve'
+  'alt-f8': 'ide-protoss:resolveshell'
   'ctrl-shift-f8': 'ide-protoss:supers'
