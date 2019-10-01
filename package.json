@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.6.9",
+	"version": "1.7.0",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -242,7 +242,7 @@
 				"no"
 			],
 			"default": "no",
-			"description": "Enable Auto-complete Service provider for directory listing and ProtoSS hierarchy."
+			"description": "Enable Auto-complete Service provider for File/Directory listing, JavaScript/TypeScript/HTML, ProtoSS hierarchy."
 		},
 		"zetaret_omnipotency": {
 			"title": "Omnipotent Mode",
