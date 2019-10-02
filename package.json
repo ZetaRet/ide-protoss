@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.7.1",
+	"version": "1.7.2",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -91,6 +91,16 @@
 			],
 			"default": "project",
 			"description": "Lookup method of protossdox.json bubbles up searching for project file in each parent folder. Limited by project/drive top folder."
+		},
+		"xdescript": {
+			"title": "Extend descriptors",
+			"type": "string",
+			"enum": [
+				"no",
+				"yes"
+			],
+			"default": "no",
+			"description": "Automatic creation of JSON descriptors will extend additional properties."
 		},
 		"textColor": {
 			"title": "Text color",
