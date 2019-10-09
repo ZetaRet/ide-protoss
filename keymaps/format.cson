@@ -10,3 +10,4 @@
   'f8': 'ide-protoss:resolve'
   'alt-f8': 'ide-protoss:resolveshell'
   'ctrl-shift-f8': 'ide-protoss:supers'
+  'ctrl-shift-alt-f8': 'ide-protoss:buildproject'
