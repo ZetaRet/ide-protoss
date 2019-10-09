@@ -46,6 +46,10 @@
 	{
 		'label': 'Resolve Token in Shell',
 		'command': 'ide-protoss:resolveshell'
+	},
+	{
+		'label': 'Build Project',
+		'command': 'ide-protoss:buildproject'
 	}
 ]
 }]
