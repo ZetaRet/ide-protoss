@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.8.2",
+	"version": "1.8.3",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -263,6 +263,16 @@
 			],
 			"default": "no",
 			"description": "Auto-complete namespace of supername as prefix from AsyncProviders appearing from ProtoSS hierarchy/inherits/imports."
+		},
+		"autoBuild": {
+			"title": "Auto build project",
+			"type": "string",
+			"enum": [
+				"yes",
+				"no"
+			],
+			"default": "no",
+			"description": "Automatically build the ProtoSS project space using current Atom Project paths, upon open/add/remove new project folder."
 		},
 		"zetaret_omnipotency": {
 			"title": "Omnipotent Mode",
