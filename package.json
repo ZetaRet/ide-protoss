@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.12.2",
+	"version": "1.12.3",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -283,6 +283,16 @@
 			],
 			"default": "no",
 			"description": "Automatically build the ProtoSS project space using current Atom Project paths, upon open/add/remove new project folder."
+		},
+		"useMultiviews": {
+			"title": "Use Multiviews",
+			"type": "string",
+			"enum": [
+				"yes",
+				"no"
+			],
+			"default": "no",
+			"description": "Allow resolve of file tokens without extension by matching directory files and assumed extensions."
 		},
 		"zetaret_omnipotency": {
 			"title": "Omnipotent Mode",
