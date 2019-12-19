@@ -25,6 +25,7 @@
 - key bindings [`F7` & `F8` keys] and `pointer` clicks enabled on token utility [Wiki How To](https://github.com/ZetaRet/ide-protoss/wiki/How-to)  
 - token loop navigator using `[CTRL]`+`F7` (menu commands, `[ctrl]click` on tokens in panel)  
 - auto complete setting based on file/directory listing, reserved keywords, global functions, and ProtoSS hierarchy  
+- auto complete of `CSS` setting  
 - auto build ProtoSS project space  
 - ProtoSS `menu` in packages  
 - protoss* `snippets` part of the package  
