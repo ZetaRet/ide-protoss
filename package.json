@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.14.1",
+	"version": "1.14.2",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -300,6 +300,17 @@
 			"default": "no",
 			"order": 4,
 			"description": "Include CSS auto-complete service by keywords."
+		},
+		"autoCompleteSort": {
+			"title": "Auto complete sorting",
+			"type": "string",
+			"enum": [
+				"yes",
+				"no"
+			],
+			"default": "yes",
+			"order": 4,
+			"description": "Enable sorting in auto-complete service provider."
 		},
 		"autoBuild": {
 			"title": "Auto build project",
