@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.14.3",
+	"version": "1.14.4",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -58,7 +58,7 @@
 				"60"
 			],
 			"default": "disable",
-			"order": 5,
+			"order": 50,
 			"description": "Automatic update of tokens on stop changing text editor. Update is asynchronous without notifications."
 		},
 		"breadcrumbs": {
@@ -70,7 +70,7 @@
 				"no"
 			],
 			"default": "auto",
-			"order": 6,
+			"order": 60,
 			"description": "Top panel describing file, meta data, descriptors and hierarchy."
 		},
 		"console": {
@@ -81,7 +81,7 @@
 				"no"
 			],
 			"default": "no",
-			"order": 7,
+			"order": 70,
 			"description": "Output of package console.log in developer tools"
 		},
 		"project": {
@@ -93,7 +93,7 @@
 				"none"
 			],
 			"default": "project",
-			"order": 18,
+			"order": 180,
 			"description": "Lookup method of protossdox.json bubbles up searching for project file in each parent folder. Limited by project/drive top folder."
 		},
 		"xdescript": {
@@ -104,7 +104,7 @@
 				"yes"
 			],
 			"default": "no",
-			"order": 21,
+			"order": 210,
 			"description": "Automatic creation of JSON descriptors will extend additional properties."
 		},
 		"textColor": {
@@ -145,7 +145,7 @@
 				"#ffffff"
 			],
 			"default": "default",
-			"order": 10,
+			"order": 100,
 			"description": "CSS color of top panel"
 		},
 		"fontSize": {
@@ -165,7 +165,7 @@
 				"20px"
 			],
 			"default": "default",
-			"order": 9,
+			"order": 90,
 			"description": "CSS font size of top panel"
 		},
 		"splitpanel": {
@@ -176,7 +176,7 @@
 				"no"
 			],
 			"default": "no",
-			"order": 8,
+			"order": 80,
 			"description": "Panel appears on two lines separating file and ProtoSS Dox project."
 		},
 		"maxTokensPerLine": {
@@ -198,7 +198,7 @@
 				"100000"
 			],
 			"default": "default",
-			"order": 17,
+			"order": 170,
 			"description": "Configure any Grammar maximum line tokens per load of file in ProtoSS IDE."
 		},
 		"notifications": {
@@ -210,7 +210,7 @@
 				"no"
 			],
 			"default": "no",
-			"order": 19,
+			"order": 190,
 			"description": "Notifications will popup on the screen for loaded JSON descriptors and analyzed tokens."
 		},
 		"groupdigits": {
@@ -221,7 +221,7 @@
 				"no"
 			],
 			"default": "no",
-			"order": 16,
+			"order": 160,
 			"description": "Lines and tokens will appear in groups separated by space."
 		},
 		"grammarId": {
@@ -243,7 +243,7 @@
 				"Auto"
 			],
 			"default": "JavaScript",
-			"order": 13,
+			"order": 130,
 			"description": "Choose Grammar Tokenizer. Install or Enable missing ones, otherwise Null Grammar will be used. Auto will use editor grammar."
 		},
 		"findTokenCaseSensitivity": {
@@ -254,7 +254,7 @@
 				"no"
 			],
 			"default": "yes",
-			"order": 15,
+			"order": 150,
 			"description": "Case Sensitive search of tokens. Token string value is always trimmed of whitespace."
 		},
 		"autoComplete": {
@@ -265,7 +265,7 @@
 				"no"
 			],
 			"default": "no",
-			"order": 1,
+			"order": 10,
 			"description": "Enable Auto-complete Service provider for File/Directory listing, JavaScript/TypeScript/HTML, ProtoSS hierarchy."
 		},
 		"autoCompleteTypes": {
@@ -276,7 +276,7 @@
 				"no"
 			],
 			"default": "no",
-			"order": 3,
+			"order": 30,
 			"description": "Export property and method types from descriptors and add them to imports."
 		},
 		"autoCompleteNS": {
@@ -287,7 +287,7 @@
 				"no"
 			],
 			"default": "no",
-			"order": 2,
+			"order": 20,
 			"description": "Auto-complete namespace of supername as prefix from AsyncProviders appearing from ProtoSS hierarchy/inherits/imports."
 		},
 		"autoCompleteCSS": {
@@ -298,8 +298,19 @@
 				"no"
 			],
 			"default": "no",
-			"order": 4,
+			"order": 40,
 			"description": "Include CSS auto-complete service by keywords."
+		},
+		"autoCompleteHTML": {
+			"title": "Auto complete HTML",
+			"type": "string",
+			"enum": [
+				"yes",
+				"no"
+			],
+			"default": "no",
+			"order": 41,
+			"description": "Include HTML auto-complete service by elements, attributes, methods."
 		},
 		"autoCompleteSort": {
 			"title": "Auto complete sorting",
@@ -309,7 +320,7 @@
 				"no"
 			],
 			"default": "yes",
-			"order": 4,
+			"order": 45,
 			"description": "Enable sorting in auto-complete service provider."
 		},
 		"autoBuild": {
@@ -331,7 +342,7 @@
 				"no"
 			],
 			"default": "no",
-			"order": 20,
+			"order": 200,
 			"description": "Allow resolve of file tokens without extension by matching directory files and assumed extensions."
 		},
 		"fileTimeout": {
@@ -355,7 +366,7 @@
 				5000
 			],
 			"default": 500,
-			"order": 11,
+			"order": 110,
 			"description": "Timeout before loading JSON files of project and descriptor."
 		},
 		"tokenTimeout": {
@@ -379,7 +390,7 @@
 				5000
 			],
 			"default": 500,
-			"order": 12,
+			"order": 120,
 			"description": "Timeout before loading tokens from Grammar."
 		},
 		"zetaret_omnipotency": {
@@ -390,7 +401,7 @@
 				"no"
 			],
 			"default": "no",
-			"order": 14,
+			"order": 140,
 			"description": "Activate ProtoSS Omnipotency. Tokenize all file extensions using selected grammar, includes Project/Dox/Descriptors/Inheritance."
 		}
 	},
