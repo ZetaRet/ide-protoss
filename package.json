@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.15.5",
+	"version": "1.15.6",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -468,6 +468,13 @@
 					"default": "no",
 					"enum": ["no", "yes"],
 					"description": "Use current token settings to find more markers."
+				},
+				"markerRange": {
+					"title": "Find markers range",
+					"type": "number",
+					"default": 10000,
+					"enum": [1, 5, 10, 50, 100, 1000, 10000, 25000],
+					"description": "Search range for additional occurrences."
 				}
 			},
 			"order": 500,
