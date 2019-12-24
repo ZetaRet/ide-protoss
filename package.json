@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.15.4",
+	"version": "1.15.5",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -461,6 +461,13 @@
 					"default": "no",
 					"enum": ["no", "yes"],
 					"description": "Trim whitespace from token markers."
+				},
+				"markerFind": {
+					"title": "Find markers",
+					"type": "string",
+					"default": "no",
+					"enum": ["no", "yes"],
+					"description": "Use current token settings to find more markers."
 				}
 			},
 			"order": 500,
