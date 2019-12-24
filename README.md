@@ -28,6 +28,7 @@
 - auto-complete of `CSS` setting  
 - auto-complete of `HTML` setting  
 - `sorting` of all auto-complete service providers as setting  
+- `Marker Styles` with `CSS` settings of the marker class, mark all occurrences setting  
 - auto build ProtoSS project space  
 - ProtoSS `menu` in packages  
 - protoss* `snippets` part of the package  
