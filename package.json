@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.15.1",
+	"version": "1.15.2",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -447,6 +447,13 @@
 					"default": 4,
 					"enum": [0, 1, 2, 3, 4, 5, 6, 7, 8],
 					"description": "Border radius of markers"
+				},
+				"trimMarkers": {
+					"title": "Remove surrounding whitespace",
+					"type": "string",
+					"default": "no",
+					"enum": ["no", "yes"],
+					"description": "Trim whitespace from token markers."
 				}
 			},
 			"order": 500,
