@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.15.6",
+	"version": "1.15.7",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -419,26 +419,26 @@
 					"title": "Alpha of highlight marker",
 					"type": "number",
 					"default": 10,
-					"enum": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+					"enum": [0, 5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
 					"description": "Opacity of marker background in %"
 				},
 				"markerBackColor": {
 					"title": "Color of highlight marker",
 					"type": "color",
-					"default": "white",
+					"default": "#ffffff",
 					"description": "Background of markers"
 				},
 				"markerBorderAlpha": {
 					"title": "Alpha of highlight border",
 					"type": "number",
 					"default": 10,
-					"enum": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+					"enum": [0, 5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
 					"description": "Opacity of marker border in %"
 				},
 				"markerBorderColor": {
 					"title": "Color of highlight border",
 					"type": "color",
-					"default": "white",
+					"default": "#ffffff",
 					"description": "Border of markers"
 				},
 				"markerBorderRadius": {
@@ -468,6 +468,13 @@
 					"default": "no",
 					"enum": ["no", "yes"],
 					"description": "Use current token settings to find more markers."
+				},
+				"markerFindSkip": {
+					"title": "Skip punctuation in marker search",
+					"type": "string",
+					"default": "no",
+					"enum": ["no", "yes"],
+					"description": "Single punctuation characters will not be marked in find markers cases."
 				},
 				"markerRange": {
 					"title": "Find markers range",
