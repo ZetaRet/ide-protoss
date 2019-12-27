@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.15.7",
+	"version": "1.16.0",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -486,6 +486,46 @@
 			},
 			"order": 500,
 			"description": "Group of colors, borders, backgrounds, and CSS config. Marked tokens use Atom Decoration/DisplayMarker API."
+		},
+		"breadcrumbsOptions": {
+			"title": "Breadcrumbs Options",
+			"type": "object",
+			"properties": {
+				"filePath": {
+					"title": "File path",
+					"type": "string",
+					"default": "absolute",
+					"enum": ["absolute", "relative", "last", "none"],
+					"description": "Show current editor path in breadcrumbs.",
+					"order": 10
+				},
+				"lines": {
+					"title": "Lines",
+					"type": "string",
+					"default": "yes",
+					"enum": ["yes", "no"],
+					"description": "Show lines in breadcrumbs.",
+					"order": 20
+				},
+				"tokens": {
+					"title": "Tokens",
+					"type": "string",
+					"default": "yes",
+					"enum": ["yes", "no"],
+					"description": "Show tokens in breadcrumbs.",
+					"order": 30
+				},
+				"icons": {
+					"title": "Icons",
+					"type": "string",
+					"default": "yes",
+					"enum": ["yes", "no"],
+					"description": "Show icons in breadcrumbs.",
+					"order": 40
+				}
+			},
+			"order": 600,
+			"description": "Group of options to control breadcrumbs view."
 		}
 	},
 	"providedServices": {
