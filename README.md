@@ -11,9 +11,10 @@
 - notification settings in Atom IDE  
 - click `ProtoSS` at breadcrumbs to refresh info of file  
 - hover and click tooltips  
-- absolute file location and descriptor info  
+- absolute/relative/current file location and descriptor info  
 - number of lines and file stats on click  
 - number of tokens and current active grammar in ProtoSS IDE  
+- `breadcrumbs` settings to show/hide items  
 - name of package [click to open package JSON in IDE]  
 - name of `JSON` descriptor [click to open JSON descriptor in IDE]  
 - number of properties INSTANCE-STATIC and click preview  
