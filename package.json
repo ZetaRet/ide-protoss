@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.16.7",
+	"version": "1.17.0",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -518,6 +518,43 @@
 			},
 			"order": 600,
 			"description": "Group of options to control breadcrumbs view."
+		},
+		"autoCompleteOptions": {
+			"title": "Options of Auto-completion",
+			"type": "object",
+			"properties": {
+				"useMethodSnippets": {
+					"title": "Use method snippets",
+					"type": "string",
+					"default": "no",
+					"enum": ["no", "yes"],
+					"description": "Parse method data from async JSON provider and use as snippet in the auto-complete block.",
+					"order": 10
+				},
+				"basicPriority": {
+					"title": "Priority of Basic Provider",
+					"type": "number",
+					"default": 21,
+					"description": "Appearance order of all basic auto-complete services - JS/HTML/CSS.",
+					"order": 20
+				},
+				"asyncPriority": {
+					"title": "Priority of Async Provider",
+					"type": "number",
+					"default": 20,
+					"description": "Appearance order of all asynchronous auto-complete services - JSON descriptors.",
+					"order": 30
+				},
+				"filePriority": {
+					"title": "Priority of File Provider",
+					"type": "number",
+					"default": 22,
+					"description": "Appearance order of file/folder auto-complete service.",
+					"order": 40
+				}
+			},
+			"order": 700,
+			"description": "Group of options to control auto-complete service providers."
 		}
 	},
 	"providedServices": {
