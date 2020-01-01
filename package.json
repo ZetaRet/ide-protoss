@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.17.1",
+	"version": "1.17.2",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -552,6 +552,13 @@
 					"description": "Appearance order of all asynchronous auto-complete services - JSON descriptors.",
 					"order": 40
 				},
+				"wordPriority": {
+					"title": "Priority of Word Provider",
+					"type": "number",
+					"default": 19,
+					"description": "Appearance order of all word auto-complete services - text buffers.",
+					"order": 45
+				},
 				"fileProvider": {
 					"title": "Enable File Provider",
 					"type": "string",
@@ -575,6 +582,22 @@
 					"enum": ["basic", "all", "disable"],
 					"description": "Use Async Provider in Auto-completion mode by using Basic Provider grammar types or in all grammars.",
 					"order": 70
+				},
+				"wordProvider": {
+					"title": "Enable Word Provider",
+					"type": "string",
+					"default": "none",
+					"enum": ["none", "all", "same", "active"],
+					"description": "Use Word Provider in Auto-completion mode of current active text editor, same grammar type or all open buffers.",
+					"order": 80
+				},
+				"wordLength": {
+					"title": "Word Length",
+					"type": "number",
+					"default": 2,
+					"enum": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+					"description": "Minimum length of the word from the text buffer.",
+					"order": 85
 				}
 			},
 			"order": 700,
