@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.17.0",
+	"version": "1.17.1",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -531,26 +531,50 @@
 					"description": "Parse method data from async JSON provider and use as snippet in the auto-complete block.",
 					"order": 10
 				},
+				"filePriority": {
+					"title": "Priority of File Provider",
+					"type": "number",
+					"default": 22,
+					"description": "Appearance order of file/folder auto-complete service.",
+					"order": 20
+				},
 				"basicPriority": {
 					"title": "Priority of Basic Provider",
 					"type": "number",
 					"default": 21,
 					"description": "Appearance order of all basic auto-complete services - JS/HTML/CSS.",
-					"order": 20
+					"order": 30
 				},
 				"asyncPriority": {
 					"title": "Priority of Async Provider",
 					"type": "number",
 					"default": 20,
 					"description": "Appearance order of all asynchronous auto-complete services - JSON descriptors.",
-					"order": 30
-				},
-				"filePriority": {
-					"title": "Priority of File Provider",
-					"type": "number",
-					"default": 22,
-					"description": "Appearance order of file/folder auto-complete service.",
 					"order": 40
+				},
+				"fileProvider": {
+					"title": "Enable File Provider",
+					"type": "string",
+					"default": "basic",
+					"enum": ["basic", "all", "disable"],
+					"description": "Use File Provider in Auto-completion mode by using Basic Provider grammar types or in all grammars.",
+					"order": 50
+				},
+				"basicProvider": {
+					"title": "Enable Basic Provider",
+					"type": "string",
+					"default": "enable",
+					"enum": ["enable", "disable"],
+					"description": "Use Basic Provider in Auto-completion mode by matching grammar types.",
+					"order": 60
+				},
+				"asyncProvider": {
+					"title": "Enable Async Provider",
+					"type": "string",
+					"default": "basic",
+					"enum": ["basic", "all", "disable"],
+					"description": "Use Async Provider in Auto-completion mode by using Basic Provider grammar types or in all grammars.",
+					"order": 70
 				}
 			},
 			"order": 700,
