@@ -25,9 +25,10 @@
 - digit grouping setting of lines and tokens  
 - key bindings [`F7` & `F8` keys] and `pointer` clicks enabled on token utility [Wiki How To](https://github.com/ZetaRet/ide-protoss/wiki/How-to)  
 - token loop navigator using `[CTRL]`+`F7` (menu commands, `[ctrl]click` on tokens in panel)  
-- auto-complete setting based on file/directory listing, reserved keywords, global functions, and ProtoSS hierarchy  
-- auto-complete of `CSS` setting  
-- auto-complete of `HTML` setting  
+- resolve token scenario `F8` key, including hyperlinks, modules, files, supernames, hierarchy, descriptors  
+- `auto-complete` setting based on file/directory listing, reserved keywords, global functions, and ProtoSS hierarchy  
+- auto-complete of `CSS` and `HTML` setting  
+- auto-complete of `Words` from text buffers with options  
 - `sorting` of all auto-complete service providers as setting  
 - `Marker Styles` with `CSS` settings of the marker class, mark all occurrences setting  
 - auto build ProtoSS project space  
