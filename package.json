@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.17.3",
+	"version": "1.17.4",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -598,6 +598,14 @@
 					"enum": [2, 3, 4, 5, 6, 7, 8, 9, 10],
 					"description": "Minimum length of the word from the text buffer.",
 					"order": 85
+				},
+				"mergerProvider": {
+					"title": "Enable Merger Provider",
+					"type": "string",
+					"default": "None",
+					"enum": ["None", "Basic/Async/Word", "Basic/Async", "Basic/Word", "Async/Word"],
+					"description": "Use Merger Provider to list and sort at once. Merger will use the lowest suggestion priority of the sequence.",
+					"order": 90
 				}
 			},
 			"order": 700,
