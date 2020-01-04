@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.17.4",
+	"version": "1.17.5",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
