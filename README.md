@@ -6,9 +6,9 @@
 - `Grammar` Selection - [JavaScript](https://atom.io/packages/language-javascript), [TypeScript](https://atom.io/packages/language-typescript), [CoffeeScript](https://atom.io/packages/language-coffee-script), [HTML](https://atom.io/packages/language-html), [CSS](https://atom.io/packages/language-css), [PHP](https://atom.io/packages/language-php), [Python](https://atom.io/packages/language-python), [Java](https://atom.io/packages/language-java), [JSON](https://atom.io/packages/language-json), [XML](https://atom.io/packages/language-xml), [GitHub Markdown](https://atom.io/packages/language-gfm), [Plain Text](https://atom.io/packages/language-text), or `Auto`  
 - auto async of tokens on text change upto 60 seconds timeout setting  
 - maximum tokens per line setting upto 100000  
-- tokenization setting of any file extension (omnipotent mode)  
+- tokenization setting of any file extension (`omnipotent mode`)  
 - case sensitive token search setting  
-- notification settings in Atom IDE  
+- `notification` settings in Atom IDE  
 - click `ProtoSS` at breadcrumbs to refresh info of file  
 - hover and click tooltips  
 - absolute/relative/current file location and descriptor info  
@@ -30,6 +30,9 @@
 - auto-complete of `CSS` and `HTML` setting  
 - auto-complete of `Words` from text buffers with options  
 - `sorting` of all auto-complete service providers as setting  
+- `Auto-complete Service Providers` - `Common`, `File`, `Basic`, `Async`, `Word`, `Merger`  
+- `Merger Provider` consumes and sorts all selected providers  
+- `Word` configuration of the regular expression, including `Unicode Ranges` and predefined alphabets  
 - `Marker Styles` with `CSS` settings of the marker class, mark all occurrences setting  
 - auto build ProtoSS project space  
 - ProtoSS `menu` in packages  
