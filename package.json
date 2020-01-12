@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.19.0",
+	"version": "1.19.1",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -624,7 +624,7 @@
 					"order": 0
 				},
 				"cyrillic": {
-					"title": "Include Cyrilic",
+					"title": "Include Cyrillic",
 					"type": "string",
 					"default": "no",
 					"enum": ["no", "yes"],
