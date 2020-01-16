@@ -11,3 +11,6 @@
   'ProtoSS Package':
     'prefix': 'protosspackage'
     'body': 'window.package("$1").internal(\nfunction $2($3) {\n\tvar o = this,\n\t\ta = arguments;\n\t$4\n\to.super(a$5);\n\tvar m = {};\n\t$6\n\to.superize(a, m, true, true);\n\treturn o;\n});'
+  'ProtoSS Class Package':
+    'prefix': 'protossclasspackage'
+    'body': 'window.package("$1").internal(\n\tclass $2($3) {\n\t\tconstructor() {\n\t\t\t$4\n\t\t}\n\t}\n);'
