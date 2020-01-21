@@ -5,9 +5,18 @@
   'ProtoSS Method':
     'prefix': 'protossmethod'
     'body': 'm.$1 = function $2($3) {\n\t$4\n\treturn $5;\n};'
+  'ProtoSS Async Method':
+    'prefix': 'protossasyncmethod'
+    'body': 'm.$1 = async function $2($3) {\n\t$4\n\treturn $5;\n};'
+  'ProtoSS Method Promise':
+    'prefix': 'protossmethodpromise'
+    'body': 'm.$1 = function $2($3) {\n\t$4\n\treturn new Promise(resolve => {$5});\n};'
   'ProtoSS Var':
     'prefix': 'protossvar'
     'body': 'o.$1 = $2;'
+  'ProtoSS Const Await':
+    'prefix': 'protossconstawait'
+    'body': 'const $1 = await $2;'
   'ProtoSS Package':
     'prefix': 'protosspackage'
     'body': 'window.package("$1").internal(\nfunction $2($3) {\n\tvar o = this,\n\t\ta = arguments;\n\t$4\n\to.super(a$5);\n\tvar m = {};\n\t$6\n\to.superize(a, m, true, true);\n\treturn o;\n});'
