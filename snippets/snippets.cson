@@ -1,28 +1,34 @@
 '.source.js':
   'ProtoSS':
     'prefix': 'protoss'
-    'body': 'function $1($2) {\n\tvar o = this,\n\t\ta = arguments;\n\t$3\n\to.super(a$4);\n\tvar m = {};\n\t$5\n\to.superize(a, m, true, true);\n\treturn o;\n}'
+    'body': 'function ${1:ClassName}($2) {\n\tvar o = this,\n\t\ta = arguments;\n\t$3\n\to.super(a$4);\n\tvar m = {};\n\t$5\n\to.superize(a, m, true, true);\n\treturn o;\n}'
   'ProtoSS Method':
     'prefix': 'protossmethod'
-    'body': 'm.$1 = function $2($3) {\n\t$4\n\treturn $5;\n};'
+    'body': 'm.${1:name} = function $2($3) {\n\t$4\n\treturn $5;\n};'
   'ProtoSS Async Method':
     'prefix': 'protossasyncmethod'
-    'body': 'm.$1 = async function $2($3) {\n\t$4\n\treturn $5;\n};'
+    'body': 'm.${1:name} = async function $2($3) {\n\t$4\n\treturn $5;\n};'
   'ProtoSS Method Promise':
     'prefix': 'protossmethodpromise'
-    'body': 'm.$1 = function $2($3) {\n\t$4\n\treturn new Promise(resolve => {$5});\n};'
+    'body': 'm.${1:name} = function $2($3) {\n\t$4\n\treturn new Promise(resolve => {$5});\n};'
   'ProtoSS Var':
     'prefix': 'protossvar'
-    'body': 'o.$1 = $2;'
+    'body': 'o.${1:name} = ${2:value};'
   'ProtoSS Const Await':
     'prefix': 'protossconstawait'
-    'body': 'const $1 = await $2;'
+    'body': 'const ${1:name} = await ${2:Promise};'
   'ProtoSS Package':
     'prefix': 'protosspackage'
-    'body': 'window.package("$1").internal(\nfunction $2($3) {\n\tvar o = this,\n\t\ta = arguments;\n\t$4\n\to.super(a$5);\n\tvar m = {};\n\t$6\n\to.superize(a, m, true, true);\n\treturn o;\n});'
+    'body': 'window.package("${1:protoss.package}").internal(\nfunction ${2:ClassName}($3) {\n\tvar o = this,\n\t\ta = arguments;\n\t$4\n\to.super(a$5);\n\tvar m = {};\n\t$6\n\to.superize(a, m, true, true);\n\treturn o;\n});'
   'ProtoSS Class Package':
     'prefix': 'protossclasspackage'
-    'body': 'window.package("$1").internal(\n\tclass $2 {\n\t\tconstructor($3) {\n\t\t\t$4\n\t\t}\n\t}\n);'
+    'body': 'window.package("${1:protoss.package}").internal(\n\tclass ${2:ClassName} {\n\t\tconstructor($3) {\n\t\t\t$4\n\t\t}\n\t}\n);'
   'ProtoSS Class Extends Package':
     'prefix': 'protossclassextendspackage'
-    'body': 'window.package("$1").internal(\n\tclass $2 extends $3 {\n\t\tconstructor($4) {\n\t\t\tsuper($5);\n\t\t\t$6\n\t\t}\n\t}\n);'
+    'body': 'window.package("${1:protoss.package}").internal(\n\tclass ${2:ClassName} extends ${3:SuperName} {\n\t\tconstructor($4) {\n\t\t\tsuper($5);\n\t\t\t$6\n\t\t}\n\t}\n);'
+  'ProtoSS Class Create Reference':
+    'prefix': 'protossclasscreatereference'
+    'body': '(function(reference) {\n\tvar ${1:Namespace} = reference.getAccessAttribute("${2:AccessName}", "${3:AccessPackage}");\n\treference = null;\n\twindow.package("${4:protoss.package}").internal(\n\t\tclass ${5:ClassName} {\n\t\t\tconstructor() {\n\t\t\t\t${1:Namespace}.prototype.create.call(this);\n\t\t\t\t${1:Namespace}.prototype.update.call(this, "${6:name}", ${7:value});\n\t\t\t}\n\t\t\t${8:readFromNamespace}($9) {\n\t\t\t\tvar ${6:name} = ${1:Namespace}.prototype.read.call(this, "${6:name}");\n\t\t\t\t$10\n\t\t\t\treturn ${6:name};\n\t\t\t}\n\t\t\tdestroy() {\n\t\t\t\t${1:Namespace}.prototype.destroy.call(this);\n\t\t\t}\n\t\t}\n\t);\n})(reference);'
+  'ProtoSS Class Extends Reference':
+    'prefix': 'protossclassextendsreference'
+    'body': '(function(reference) {\n\tvar ${1:Namespace} = reference.usens("${2:namespace.package}").AccessAttribute;\n\treference = null;\n\twindow.package("${3:protoss.package}").internal(\n\t\tclass ${4:ClassName} extends ${5:protoss.package.SuperName} {\n\t\t\tconstructor($6) {\n\t\t\t\tsuper($7);\n\t\t\t\t${1:Namespace}.prototype.update.call(this, "${8:name}", ${9:value});\n\t\t\t}\n\t\t\t${10:readFromNamespace}($11) {\n\t\t\t\tvar ${8:name} = ${1:Namespace}.prototype.read.call(this, "${8:name}");\n\t\t\t\t$12\n\t\t\t\treturn ${8:name};\n\t\t\t}\n\t\t}\n\t);\n})(reference);'
