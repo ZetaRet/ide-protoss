@@ -22,7 +22,7 @@
     'body': 'const ${1:name} = await ${2:Promise};'
   'ProtoSS Package':
     'prefix': 'protossPackage'
-    'body': 'window.package("${1:protoss.package}").internal(\nfunction ${2:ClassName}($3) {\n\tvar o = this,\n\t\ta = arguments;\n\t$4\n\to.super(a$5);\n\tvar m = {};\n\t$6\n\to.superize(a, m, true, true);\n\treturn o;\n});'
+    'body': 'window.package("${1:protoss.package}").internal(\n\tfunction ${2:ClassName}($3) {\n\t\tvar o = this,\n\t\t\ta = arguments;\n\t\t$4\n\t\to.super(a$5);\n\t\tvar m = {};\n\t\t$6\n\t\to.superize(a, m, true, true);\n\t\treturn o;\n\t}\n);'
   'ProtoSS Class Package':
     'prefix': 'protossClassPackage'
     'body': 'window.package("${1:protoss.package}").internal(\n\tclass ${2:ClassName} {\n\t\tconstructor($3) {\n\t\t\t$4\n\t\t}\n\t}\n);'
@@ -56,3 +56,18 @@
   'ProtoSS Access Destroy':
     'prefix': 'protossAccessDestroy'
     'body': '${1:Namespace}.prototype.destroy.call(this);'
+  'ProtoSS Header Implement':
+    'prefix': 'protossHeaderImplement'
+    'body': 'ProtoSS.headerImplement.push(["${1:ClassName}", "${2:Interface}"]);'
+  'ProtoSS Header Super':
+    'prefix': 'protossHeaderSuper'
+    'body': 'ProtoSS.headerSuper.push(["${1:ClassName}", "${2:SuperClass}"]);'
+  'ProtoSS Header Super List':
+    'prefix': 'protossHeaderSuperList'
+    'body': 'ProtoSS.headerSuperList${1:2}.push(["${2:ClassName}", [\n\t"${3:SuperClass}",\n\t"${4:SuperOrInterface}"\n]]);'
+  'ProtoSS Interface':
+    'prefix': 'protossInterface'
+    'body': '${1:var} ${2:Interface} = {\n\t${3:name}: [${4:Type}]\n}.interface("${2:Interface}");'
+  'ProtoSS Abstract':
+    'prefix': 'protossAbstract'
+    'body': '${1:var} ${2:Abstract} = {\n\t${3:name}: ${4:0}\n}.abstract("${2:Abstract}");'
