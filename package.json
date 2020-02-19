@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.20.7",
+	"version": "1.21.0",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -694,6 +694,14 @@
 					"default": "",
 					"description": "Additional Unicode Ranges as they appear in the Unicode List or custom selection. Separate by , [comma] in format U+0000-U+FFFF",
 					"order": 40
+				},
+				"account": {
+					"title": "Account Word Match",
+					"type": "string",
+					"default": "no",
+					"enum": ["no", "yes"],
+					"description": "Count the word in each filename",
+					"order": 50
 				}
 			},
 			"order": 800,
