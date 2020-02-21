@@ -71,3 +71,33 @@
   'ProtoSS Abstract':
     'prefix': 'protossAbstract'
     'body': '${1:var} ${2:Abstract} = {\n\t${3:name}: ${4:0}\n}.abstract("${2:Abstract}");'
+  'ProtoSS Require Supername':
+    'prefix': 'protossRequireSupername'
+    'body': 'const rsn = require("${1:./}${2:utils/nano/}RequireSupername.js");\nrsn.initRequireSupername();\nrsn.loadFromJSON("${3:namespacemap.json}", __dirname);'
+  'ProtoSS Import Default':
+    'prefix': 'protossImportDefault'
+    'body': 'import ${1:defaultExport} from "${2:module}";'
+  'ProtoSS Import All':
+    'prefix': 'protossImportAll'
+    'body': 'import * as ${1:name} from "${2:module}";'
+  'ProtoSS Import/Export':
+    'prefix': 'protossImportExport'
+    'body': 'import { ${1:export} } from "${2:module}";'
+  'ProtoSS Import/Export Alias':
+    'prefix': 'protossImportExportAlias'
+    'body': 'import { ${1:export} as ${2:alias} } from "${3:module}";'
+  'ProtoSS Import/Export 2':
+    'prefix': 'protossImportExport2'
+    'body': 'import { ${1:export1}, ${2:export2} } from "${3:module}";'
+  'ProtoSS Import/Export Many':
+    'prefix': 'protossImportExportMany'
+    'body': 'import { ${1:export1}, ${2:export2} as ${3:alias2}, ${4:[...]} } from "${5:module}";'
+  'ProtoSS Import/Export Default/Many':
+    'prefix': 'protossImportExportDefaultMany'
+    'body': 'import ${1:defaultExport}, { ${2:export1}${3:, [...]} ] } from "${4:module}";'
+  'ProtoSS Import Default/All':
+    'prefix': 'protossImportDefaultAll'
+    'body': 'import ${1:defaultExport}, * as ${2:name} from "${3:module}";'
+  'ProtoSS Import':
+    'prefix': 'protossImport'
+    'body': 'import "${1:module}";'
