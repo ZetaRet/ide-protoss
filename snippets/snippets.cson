@@ -73,7 +73,7 @@
     'body': '${1:var} ${2:Abstract} = {\n\t${3:name}: ${4:0}\n}.abstract("${2:Abstract}");'
   'ProtoSS Require Supername':
     'prefix': 'protossRequireSupername'
-    'body': 'const rsn = require("${1:./}${2:utils/nano/}RequireSupername.js");\nrsn.initRequireSupername();\nrsn.loadFromJSON("${3:namespacemap.json}", __dirname);'
+    'body': 'const ${1:rsn} = require("${2:./}${3:utils/nano/}RequireSupername.js");\n${1:rsn}.initRequireSupername();\n${1:rsn}.loadFromJSON("${4:namespacemap.json}", __dirname);'
   'ProtoSS Import Default':
     'prefix': 'protossImportDefault'
     'body': 'import ${1:defaultExport} from "${2:module}";'
@@ -101,3 +101,6 @@
   'ProtoSS Import':
     'prefix': 'protossImport'
     'body': 'import "${1:module}";'
+  'ProtoSS Module Exports':
+    'prefix': 'protossModuleExports'
+    'body': 'module.exports.${1:VAR} = ${1:VAR};'
