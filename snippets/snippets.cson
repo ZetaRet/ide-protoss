@@ -104,3 +104,9 @@
   'ProtoSS Module Exports':
     'prefix': 'protossModuleExports'
     'body': 'module.exports.${1:VAR} = ${1:VAR};'
+  'ProtoSS Module Server':
+    'prefix': 'protossModuleServer'
+    'body': 'var ${1:XServer};\nconst ${2:SERVERID} = "${3:zetaret.node.modules}::${4:Server}";\n\nmodule.exports.${2:SERVERID} = ${2:SERVERID};\nmodule.exports.reset${5:Extends} = () => ${1:XServer} = null;\nmodule.exports.get${5:Extends} = () => ${1:XServer};'
+  'ProtoSS Module Extended Server':
+    'prefix': 'protossModuleExtendedServer'
+    'body': 'var ${1:XServer}, ${2:xpros} = require("${3:XServerPath}");\nconst ${4:SERVERID} = "${5:zetaret.node.modules}::${6:Server}";\n\nfunction ${7:getExtendedServerProtoSS}(${8:BaseServer}) {\n\tif (!${1:XServer}) ${1:XServer} = ${2:xpros}.${7:getExtendedServerProtoSS}(${8:BaseServer});\n\treturn class ${6:Server} extends ${1:XServer} {\n\t\t\n\t}\n}\n\nmodule.exports.${2:xpros} = ${2:xpros};\nmodule.exports.${4:SERVERID} = ${4:SERVERID};\nmodule.exports.reset${9:Extends} = () => ${1:XServer} = null;\nmodule.exports.get${9:Extends} = () => ${1:XServer};\nmodule.exports.${7:getExtendedServerProtoSS} = ${7:getExtendedServerProtoSS};'
