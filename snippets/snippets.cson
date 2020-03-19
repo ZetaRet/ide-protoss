@@ -1,4 +1,4 @@
-'.source.js':
+'.source.ts, .source.js':
   'ProtoSS':
     'prefix': 'protoss'
     'body': 'function ${1:ClassName}($2) {\n\tvar o = this,\n\t\ta = arguments;\n\t$3\n\to.super(a$4);\n\tvar m = {};\n\t$5\n\to.superize(a, m, true, true);\n\treturn o;\n}'
@@ -110,3 +110,9 @@
   'ProtoSS Module Extended Server':
     'prefix': 'protossModuleExtendedServer'
     'body': 'var ${1:XServer}, ${2:xpros} = require("${3:XServerPath}");\nconst ${4:SERVERID} = "${5:zetaret.node.modules}::${6:Server}";\n\nfunction ${7:getExtendedServerProtoSS}(${8:BaseServer}) {\n\tif (!${1:XServer}) ${1:XServer} = ${2:xpros}.${7:getExtendedServerProtoSS}(${8:BaseServer});\n\treturn class ${6:Server} extends ${1:XServer} {\n\t\t\n\t}\n}\n\nmodule.exports.${2:xpros} = ${2:xpros};\nmodule.exports.${4:SERVERID} = ${4:SERVERID};\nmodule.exports.reset${9:Extends} = () => ${1:XServer} = null;\nmodule.exports.get${9:Extends} = () => ${1:XServer};\nmodule.exports.${7:getExtendedServerProtoSS} = ${7:getExtendedServerProtoSS};'
+  'ProtoSS Promise All Async Var [3]':
+    'prefix': 'protossPromiseAllAsyncVar3'
+    'body': 'Promise.all([\n\t${1:promiseMethod}(${2:asyncVar1}),\n\t${1:promiseMethod}(${3:asyncVar2}),\n\t${1:promiseMethod}(${4:asyncVar3})\n]);'
+  'ProtoSS Promise All New [2]':
+    'prefix': 'protossPromiseAllNew2'
+    'body': 'Promise.all([\n\tnew Promise(resolve => {$1}),\n\tnew Promise(resolve => {$2})\n]);'
