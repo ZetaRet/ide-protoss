@@ -20,6 +20,7 @@
 - number of properties INSTANCE-STATIC and click preview  
 - number of methods INSTANCE-STATIC and click preview  
 - inherit supers [click on each name to open ProtoSS Class in IDE]  
+- export JSON descriptors as `TypeScript` declaration with namespace/interface  
 - `console.log` settings of ProtoSS IDE activity  
 - font size and color settings  
 - digit grouping setting of lines and tokens  
