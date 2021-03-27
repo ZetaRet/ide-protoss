@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.22.7",
+	"version": "1.23.0",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -518,6 +518,22 @@
 			},
 			"order": 600,
 			"description": "Group of options to control breadcrumbs view."
+		},
+		"asyncOptions": {
+			"title": "Async Options",
+			"type": "object",
+			"properties": {
+				"tokenRefresh": {
+					"title": "Token Refresh Time",
+					"type": "number",
+					"default": 5,
+					"enum": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 50],
+					"description": "Change refresh token time interval in ms.",
+					"order": 10
+				}
+			},
+			"order": 630,
+			"description": "Group of options to control asynchronous behavior."
 		},
 		"autoCompleteOptions": {
 			"title": "Options of Auto-completion",
