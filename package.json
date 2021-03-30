@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.23.1",
+	"version": "1.23.2",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -730,6 +730,52 @@
 			},
 			"order": 800,
 			"description": "Group of options to define RegExp of Word service provider. Default [\\W] equals [^A-Za-z0-9_], or use Unicode Ranges in the exception list. If no include or custom is used, the default applies."
+		},
+		"footerOptions": {
+			"title": "Footer Options",
+			"type": "object",
+			"properties": {
+				"visibility": {
+					"title": "Footer Visibility",
+					"type": "string",
+					"default": "no",
+					"enum": ["no", "yes"],
+					"description": "Change visibility of footer panel.",
+					"order": 10
+				},
+				"priority": {
+					"title": "Footer Panel Priority",
+					"type": "string",
+					"enum": [
+						"default",
+						"0",
+						"10",
+						"20",
+						"30",
+						"40",
+						"50",
+						"60",
+						"70",
+						"80",
+						"90",
+						"100",
+						"110",
+						"130",
+						"150",
+						"170",
+						"190",
+						"200",
+						"300",
+						"400",
+						"500",
+						"1000"
+					],
+					"default": "0",
+					"description": "Priority of footer panel in workspace"
+				}
+			},
+			"order": 900,
+			"description": "Group of options to control footer panel."
 		}
 	},
 	"providedServices": {
