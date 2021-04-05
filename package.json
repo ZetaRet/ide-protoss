@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.23.3",
+	"version": "1.24.0",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -776,6 +776,21 @@
 			},
 			"order": 900,
 			"description": "Group of options to control footer panel."
+		},
+		"exeOptions": {
+			"title": "Exe Options",
+			"type": "object",
+			"properties": {
+				"nodeExe": {
+					"title": "Node Execution in Runtime",
+					"type": "string",
+					"default": "node",
+					"description": "Change Node.js Executable.",
+					"order": 10
+				}
+			},
+			"order": 1000,
+			"description": "Group of options to control executables and commands."
 		}
 	},
 	"providedServices": {
