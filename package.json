@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.24.1",
+	"version": "1.24.2",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -787,6 +787,22 @@
 					"default": "node",
 					"description": "Change Node.js Executable.",
 					"order": 10
+				},
+				"killSignal": {
+					"title": "Process Kill Signal",
+					"type": "string",
+					"default": "SIGTERM",
+					"enum": ["SIGTERM", "SIGINT"],
+					"description": "Change Termination Signal.",
+					"order": 20
+				},
+				"processCreate": {
+					"title": "Process Create Method",
+					"type": "string",
+					"default": "exec",
+					"enum": ["exec", "file", "fork", "spawn"],
+					"description": "Change Process Creation.",
+					"order": 30
 				}
 			},
 			"order": 1000,
