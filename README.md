@@ -7,6 +7,7 @@
 - auto async of tokens on text change upto 60 seconds timeout setting  
 - maximum tokens per line setting upto 100000  
 - tokenization setting of any file extension (`omnipotent mode`)  
+- token processor settings  
 - case sensitive token search setting  
 - `notification` settings in Atom IDE  
 - click `ProtoSS` at breadcrumbs to refresh info of file  
@@ -38,11 +39,7 @@
 - auto build ProtoSS project space  
 - ProtoSS `menu` in packages  
 - protoss* `snippets` part of the package  
-
-## Zeta Ret ProtoSS Library - Prototype Supers-Subclass
+- `exe` commands available to `file` or `kill` process  
+- `footer` panel display status effects  
 
 [![Welcome to ProtoSS IDE](https://raw.githubusercontent.com/ZetaRet/atom.io-packages/master/images/welcome_protoss.png)](https://atom.io/packages/ide-protoss)  
-
-[ProtoSS Website](https://protoss.zetaret.com/)  
-
-[Zeta Ret](https://zetaret.com/)  
