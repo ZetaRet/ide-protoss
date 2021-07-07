@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "2.1.4",
+	"version": "2.2.0",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -812,6 +812,14 @@
 					"enum": ["yes", "no"],
 					"description": "Create new .d.ts file and paste clipboard content.",
 					"order": 10
+				},
+				"accessor": {
+					"title": "Export Access Field",
+					"type": "string",
+					"default": "no",
+					"enum": ["yes", "no"],
+					"description": "Output Private/Protected properties and methods.",
+					"order": 20
 				}
 			},
 			"order": 967,
