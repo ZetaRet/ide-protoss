@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "2.2.0",
+	"version": "2.2.1",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -851,6 +851,14 @@
 					"enum": ["exec", "file", "fork", "spawn"],
 					"description": "Change Process Creation.",
 					"order": 30
+				},
+				"processData": {
+					"title": "Process Data Output",
+					"type": "string",
+					"default": "no",
+					"enum": ["no", "yes"],
+					"description": "Output in console stdout of process object, including id and path.",
+					"order": 40
 				}
 			},
 			"order": 1000,
