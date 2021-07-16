@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "2.2.2",
+	"version": "2.2.3",
 	"main": "./lib/main.js",
 	"name": "ide-protoss",
 	"description": "ProtoSS JS and Grammar support for Atom IDE",
@@ -859,6 +859,14 @@
 					"enum": ["no", "yes"],
 					"description": "Output in console stdout of process object, including id and path.",
 					"order": 40
+				},
+				"autoOpenConsole": {
+					"title": "Auto Open Console",
+					"type": "string",
+					"default": "no",
+					"enum": ["no", "yes"],
+					"description": "Open console automatically in the event of stdout data stream.",
+					"order": 50
 				}
 			},
 			"order": 1000,
